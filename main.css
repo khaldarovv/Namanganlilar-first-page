@@ -1,0 +1,482 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    font-family: 'Rubik';
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-weight: 400;
+    src: url("./fonts/rubik-v26-cyrillic-regular.woff2") format("woff2")
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Rubik";
+    font-weight: 500;
+    src: url("./fonts/rubik-v26-cyrillic-500.woff2") format("woff2")
+}
+
+
+.box-header{
+    margin-bottom: 30px;
+    height: 105px;
+    background-color: #F6F6F6;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 px;
+    
+}
+
+p{
+    margin: 0%;
+    
+}
+
+/* header-site */
+.site-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 1240px;
+}
+.start-header{
+    display: flex;
+    align-items: center;
+}
+.end-header{
+    display: flex;
+    align-items: center;
+}
+.dollar{
+    margin-left: 41px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    
+    
+}
+.rubl{
+    margin-left: 25px;
+    font-family: 'Rubik';
+    font-weight: 700;
+}
+.dollar-t{
+    color: #2959CE;
+}
+.rubl-t{
+    color: #2959CE;
+}
+.button-search{
+    margin-right: 25px;
+    width: 275px;
+    height: 45px;
+    background: #fff;
+    border-radius: 60px;
+    padding: 15px 192px 13px 41px;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+.lang-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    width: 70px;
+    height: 36px;
+    background: #DCE6FF;
+    border-radius: 39px;
+    padding: 20px 20px;
+    list-style: none;
+}
+.lang-uz{
+    padding: 7px;
+    border-radius: 15px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+    background-color: #fff;
+}
+.lang-ru{
+    padding: 11px 11px 10px 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #A6A6A6;
+}
+.enter-acc{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    padding: 13px 20px;
+    color: #fff;
+    background: #7296EC;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+.header-container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 px;
+}
+.navbar{
+    padding-bottom: 60px;
+}
+.nav-link{
+    margin-right: 34px;
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 18px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+.nav-end{
+    margin: 0px;
+}
+/* section aside */
+.container-hero{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 px;
+}
+
+.shopme{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* SECTION hero */
+
+.section-hero{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.hero-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+}
+.hero-item{
+    margin-bottom: 10px;
+    padding: 20px 17px 18px 17px;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+}
+.hero-item-link{
+    text-decoration: none;
+}
+.hero-title{
+    margin: 0px;
+    width: 358px;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: #000;
+}
+.hero-text{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 346px;
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+.hero-img{
+    margin-bottom: 18px;
+}
+.link-sites{
+    display: flex;
+    align-items: center;
+}
+.img-sites{
+    margin-right: 10px;
+}
+.text-sites{
+    color: #5E5F61;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 12px
+}
+
+/* ARTICLE SITE */
+
+.article-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 25px 71px 25px 29px;
+}
+.notification{
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-radius: 12px;
+    background-image: url("./images/notification-banner.svg");
+    background-position: center;
+    background-size: 1050px 100px;
+    background-repeat: no-repeat;
+    
+}
+.notif-text{
+    width: 404px;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 500;
+}
+.notif-button{
+    display: flex;
+    justify-content: center;
+    padding: 13px 30px;
+    width: 149px;
+    height: 50px;
+    background: #F78B3B;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    color: #fff;
+}
+
+/* SECTION 2 */
+
+/* start-box */
+
+.container-section-news{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 px;
+}
+
+.section-news-all-boxes{
+    display: flex;
+}
+.section-news-title{
+    margin: 0px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.news-list{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 17px;
+    list-style: none;
+}
+.news-item{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 20px 20px 20px 17px;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+}
+.news-img{
+    margin-right: 15px;
+}
+
+.news-mini-title{
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 535px;
+    font-size: 20px;
+    font-family: 'Rubik';
+    font-weight: 500;
+    
+}
+.news-mini-text{
+    margin-bottom: 20px;
+    width: 535px;
+    font-size: 16px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    color: #4A4B4C;
+}
+.news-item-link{
+    display: flex;
+    text-decoration: none;
+    color: #5E5F61;
+}
+.news-img-link{
+    margin-right: 10px;
+}
+.view-next{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 100px;
+    padding: 17px 343px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #eaeaea;
+}
+
+/* lost-box */
+
+.lost-box{
+    margin-left: 10px;
+    padding: 20px 20px 25px 17px;
+    height: 502px;
+    background-color: #F6F6F6;
+    border-radius: 15px;
+}
+.lost-box-item{
+    margin-bottom: 40px;
+}
+
+.lost-box-head-title{
+    margin: 0px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #F6F6F6;
+}
+.lost-box-list{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+.lost-box-title{
+    margin: 0px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.view-next-text{
+    padding: 17px 343px;
+    background: #EAEAEA;
+    border-radius: 10px;
+}
+.lost-box-link{
+    text-decoration: none;
+}
+.lost-box-link-text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #5E5F61;
+}
+
+/* Footer site */
+
+.footer-namanganliklar-site {
+    background-color: #7297EF;
+}
+
+.footer-site {
+    padding: 40px 101px;
+}
+
+
+.footer-box {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #CECECE;
+}
+
+.footer-logo-white {
+    margin-bottom: 15px;
+}
+
+
+.footer-text {
+    width: 229px;
+    margin-top: 0;
+    margin-right: 203px;
+    margin-bottom: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.footer-list-left {
+    margin-top: 0;
+    margin-right: 100px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-list-right {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-list-item {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.footer-list-link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.item-strong{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.nth-index {
+    margin-bottom: 0;
+}
+
+.footer-last {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag-strong {
+    width: 161px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.tag-list {
+    display: flex;
+    list-style: none;
+}
+
+.tag-item {
+    margin-right: 25px;
+}
+
+.inchi-index {
+    margin-right: 0;
+}
